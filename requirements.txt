@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+httpx
+pydantic
+python-dotenv
+chromadb>=0.5.5
+ollama         # keep as optional local fallback
+openai>=1.40.0 # for OpenAI-compatible AsyncOpenAI client
+tzdata         # harmless on mac/linux, fixes ZoneInfo on Windows
